@@ -4,8 +4,8 @@
 rebootEC2Pipeline {
             objparameterizedCron:
                 """
-                */2 * * * * %GREETING=Hola;PLANET=plutaoooo
-                */4 * * * * %PLANET=Marterrr
+                */2 * * * * %GREETING=Hola;PLANET=venus
+                */4 * * * * %PLANET=mercurio
                 """,
             credentialIdAws: "Aasdadasd"   
 }
