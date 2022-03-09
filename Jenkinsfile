@@ -1,11 +1,11 @@
 @Library('pipeline-commons') _
 
 
-cmdEC2Pipeline {
+rebootEC2Pipeline {
             objparameterizedCron:
                 """
-                */2 * * * * %GREETING=Hola;PLANET=venus
-                */4 * * * * %PLANET=mercurio
+                */2 * * * * %INSTANCE=instancia5;REGIAO=saopaulo
+                */4 * * * * %INSTANCE=instancia7;REGIAO=saopaulo
                 """
             credentialIdAws: "Aasdadasd"   
 }
