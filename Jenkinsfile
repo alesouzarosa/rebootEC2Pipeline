@@ -1,7 +1,7 @@
 @Library('pipeline-commons') _
 
 
-rebootEC2Pipeline {
+cmdEC2Pipeline {
             objparameterizedCron:
                 """
                 */2 * * * * %GREETING=Hola;PLANET=venus
